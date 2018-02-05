@@ -1,0 +1,259 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background: #F9F9F9;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.main {
+  padding: 1.25em;
+  padding-top: 0.25em;
+}
+
+.error {
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.error p {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  background: white;
+}
+.footer h4 {
+  padding: 0;
+  margin: 3px;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+.footer h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+.col-xs-12.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h3 {
+  text-align: left;
+  font-weight: 800;
+  font-size: 0.85em;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.btn, .btn-large {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+
+.btn, .btn-large, .btn-floating, .btn-large, .btn-flat {
+  font-size: 1rem;
+  outline: 0;
+}
+
+.btn, .btn-large, .btn-flat {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+a, a:active, a:visited {
+  color: #EB2B8B;
+}
+
+a .fa {
+  color: #FFFFFF;
+}
+
+.btn {
+  background: #EB2B8B;
+  color: white;
+  font-weight: 800;
+}
+
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.65em;
+  color: #8B8A8F;
+}
+.menu a.active {
+  color: black;
+  border-bottom: 3px solid #EB2B8B;
+  padding-bottom: 1px;
+}
+
+.btn.submit {
+  background: #EB2B8B;
+  color: #fffff;
+  font-weight: 800;
+  height: 46px;
+  line-height: 46px;
+  width: 220px;
+  margin-top: 20px;
+}
+.btn.share {
+  padding: 0;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.btn.share.round {
+  border-radius: 30px;
+  font-size: 1em;
+  width: 30px;
+  padding: 0;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  margin: 5px;
+}
+@media screen and (min-width: 320px) {
+  .btn.share {
+    font-size: 1.35em;
+    width: 40px;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    margin: 5px;
+  }
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.translate-inn {
+  width: 100%;
+  background: white;
+  padding: 20px;
+}
+.translate-inn h3 {
+  color: #EB2B8B;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.translate-inn textarea {
+  height: 88px;
+  width: 100%;
+  border: 0;
+}
+.translate-inn input {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.translate-inn hr {
+  color: #DFDFDF;
+  border: 1px solid #DFDFDF;
+  margin-bottom: 15px;
+}
+
+.actions {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.share-menu {
+  margin: 0 auto;
+  text-align: center;
+  align-items: right;
+  width: 100%;
+  text-align: center;
+  text-align: center;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.logo {
+  max-width: 210px;
+}
+
+.pentagon {
+  position: relative;
+}
+.pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent red;
+}
+
+/*# sourceMappingURL=main.css.map */
